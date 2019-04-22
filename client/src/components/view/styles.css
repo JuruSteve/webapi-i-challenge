@@ -1,0 +1,126 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 130px;
+  font-weight: 600;
+  border: 1px solid gray;
+  background: white;
+  box-shadow: 6px 10px 19px 10px #333;
+}
+
+.login-form > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex;
+  height: 300px;
+}
+fieldset {
+  margin: 10px;
+  border: 0px;
+  padding: 0px;
+  display: flex;
+  text-align: left;
+  width: fit-content;
+}
+label {
+  padding-bottom: 10px;
+}
+fieldset > input {
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+fieldset > button {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 70%;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  background-color: #164077;
+  color: white;
+}
+
+.friends-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-weight: 600;
+  border: 1px solid gray;
+  background: white;
+  box-shadow: 6px 10px 19px 10px #333;
+}
+.friend {
+  width: 34%;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #0f8796;
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px;
+  height: 200px;
+}
+
+.friend > ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.friend > ul > li {
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 5px;
+  width: 70%;
+}
+
+.friend > ul > li:hover {
+  background: #309399bf;
+}
+
+.friends-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 500px;
+  overflow-y: scroll;
+}
+.friends-container > .add-friend-form {
+  height: 400px;
+  margin: auto;
+}
+fieldset > #add-friend {
+  background: #0f8796;
+}
+
+.delete {
+  text-align: right;
+}
+.delete > p {
+  margin: 0;
+  background: #ff0000b3;
+  width: fit-content;
+  margin-left: 80px;
+}
+
+.delete > p:hover {
+  cursor: pointer;
+}
+
+.update > button {
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 10px;
+  color: #006c90;
+}
