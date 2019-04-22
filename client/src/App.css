@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+.navbar {
+  width: 100%;
+  background: #fafafafa;
+  padding: 20px;
+  background-color: #164077;
+}
+.navbar > nav {
+  width: 500px;
+  margin: 0 auto;
+}
+nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav > a {
+  text-decoration: none;
+  color: white;
+}
+nav > a:hover {
+  font-weight: 600;
+}
+.active {
+  font-weight: 600;
+}
+.main {
+  display: flex;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.add-friend {
+  margin-top: 40px;
+}
+
+.add-friend > button {
+  font-size: 1.2rem;
+  border-radius: 10px;
+  background-color: #164077;
+  color: white;
+}
+
+.add-friend > button:focus {
+  outline: 0;
+}
